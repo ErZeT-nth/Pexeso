@@ -1,0 +1,26 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="600"
+        MinHeight="600" MinWidth="600" MaxHeight="600" MaxWidth="600"
+		x:Class="Pexeso.MainWindow"
+		Title="Pexeso">
+	<Window.Styles>
+		<Style Selector="Button.gridButton">
+			<Setter Property="FontFamily" Value="Arial"/>
+			<Setter Property="FontSize" Value="20"/>
+			<Setter Property="BorderThickness" Value="1"/>
+			<Setter Property="BorderBrush" Value="Black"/>
+			<Setter Property="Margin" Value="2"/>
+			<Setter Property="Padding" Value="0"/>
+		</Style>
+		<Style Selector="Button">
+			<Setter Property="FontFamily" Value="Arial"/>
+			<Setter Property="FontSize" Value="20"/>
+			<Setter Property="Cursor" Value="Hand"></Setter>
+		</Style>
+	</Window.Styles>
+	
+	
+</Window>
