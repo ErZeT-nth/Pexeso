@@ -112,12 +112,16 @@ namespace Pexeso
         private void InitializeImages()
         {
             _images = new List<string>();
+            string assetsPath = Path.GetFullPath("../../../Assets");
+
             for (int i = 1; i <= 32; i++)
             {
-                string imagePath = $"Assets/image{i}.png";
+                string imagePath = Path.Combine(assetsPath, $"image{i}.png");
                 _images.Add(imagePath);
             }
         }
+
+
 
         private void DisposeImageContent(Button button)
         {

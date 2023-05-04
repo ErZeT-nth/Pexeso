@@ -14,6 +14,38 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove=".gitignore" />
+    <None Remove="Assets\image1.png" />
+    <None Remove="Assets\image10.png" />
+    <None Remove="Assets\image11.png" />
+    <None Remove="Assets\image12.png" />
+    <None Remove="Assets\image13.png" />
+    <None Remove="Assets\image14.png" />
+    <None Remove="Assets\image15.png" />
+    <None Remove="Assets\image16.png" />
+    <None Remove="Assets\image17.png" />
+    <None Remove="Assets\image18.png" />
+    <None Remove="Assets\image19.png" />
+    <None Remove="Assets\image2.png" />
+    <None Remove="Assets\image20.png" />
+    <None Remove="Assets\image21.png" />
+    <None Remove="Assets\image22.png" />
+    <None Remove="Assets\image23.png" />
+    <None Remove="Assets\image24.png" />
+    <None Remove="Assets\image25.png" />
+    <None Remove="Assets\image26.png" />
+    <None Remove="Assets\image27.png" />
+    <None Remove="Assets\image28.png" />
+    <None Remove="Assets\image29.png" />
+    <None Remove="Assets\image3.png" />
+    <None Remove="Assets\image30.png" />
+    <None Remove="Assets\image31.png" />
+    <None Remove="Assets\image32.png" />
+    <None Remove="Assets\image4.png" />
+    <None Remove="Assets\image5.png" />
+    <None Remove="Assets\image6.png" />
+    <None Remove="Assets\image7.png" />
+    <None Remove="Assets\image8.png" />
+    <None Remove="Assets\image9.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,5 +59,40 @@
     <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="0.10.19" />
     <PackageReference Include="MessageBox.Avalonia" Version="2.1.0" />
     <PackageReference Include="XamlNameReferenceGenerator" Version="1.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AvaloniaResource Include="Assets\image1.png" />
+    <AvaloniaResource Include="Assets\image10.png" />
+    <AvaloniaResource Include="Assets\image11.png" />
+    <AvaloniaResource Include="Assets\image12.png" />
+    <AvaloniaResource Include="Assets\image13.png" />
+    <AvaloniaResource Include="Assets\image14.png" />
+    <AvaloniaResource Include="Assets\image15.png" />
+    <AvaloniaResource Include="Assets\image16.png" />
+    <AvaloniaResource Include="Assets\image17.png" />
+    <AvaloniaResource Include="Assets\image18.png" />
+    <AvaloniaResource Include="Assets\image19.png" />
+    <AvaloniaResource Include="Assets\image2.png" />
+    <AvaloniaResource Include="Assets\image20.png" />
+    <AvaloniaResource Include="Assets\image21.png" />
+    <AvaloniaResource Include="Assets\image22.png" />
+    <AvaloniaResource Include="Assets\image23.png" />
+    <AvaloniaResource Include="Assets\image24.png" />
+    <AvaloniaResource Include="Assets\image25.png" />
+    <AvaloniaResource Include="Assets\image26.png" />
+    <AvaloniaResource Include="Assets\image27.png" />
+    <AvaloniaResource Include="Assets\image28.png" />
+    <AvaloniaResource Include="Assets\image29.png" />
+    <AvaloniaResource Include="Assets\image3.png" />
+    <AvaloniaResource Include="Assets\image30.png" />
+    <AvaloniaResource Include="Assets\image31.png" />
+    <AvaloniaResource Include="Assets\image32.png" />
+    <AvaloniaResource Include="Assets\image4.png" />
+    <AvaloniaResource Include="Assets\image5.png" />
+    <AvaloniaResource Include="Assets\image6.png" />
+    <AvaloniaResource Include="Assets\image7.png" />
+    <AvaloniaResource Include="Assets\image8.png" />
+    <AvaloniaResource Include="Assets\image9.png" />
   </ItemGroup>
 </Project>
